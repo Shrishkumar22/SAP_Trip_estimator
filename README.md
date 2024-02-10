@@ -4,3 +4,13 @@ Trip estimates are beneficial to approve, reject, or modify a trip. This also he
 
 Therefore - An app for an overall average trip estimation during their quest creation for the user/ during their approval for the approver. 
 
+Team Members:- <br/>
+
+•	Dr.C.Bhagavathi <br/>
+•	Aditya Nair <br/>
+•	Shrish Kumar <br/>
+•	Dhamini Manoj <br/>
+•	Karthik Krishna <br/>
+•	Laxmi Nair <br/>
+
+
