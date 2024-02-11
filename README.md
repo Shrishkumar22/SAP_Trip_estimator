@@ -8,9 +8,9 @@ Team Members:- <br/>
 
 •	Dr.C.Bhagavathi <br/>
 •	Aditya Nair <br/>
-•	Shrish Kumar <br/>
+•	Shrish Kumar Lohchab <br/>
 •	Dhamini Manoj <br/>
 •	Karthik Krishna <br/>
-•	Laxmi Nair <br/>
+•	Lakshmi P Nair <br/>
 
 
