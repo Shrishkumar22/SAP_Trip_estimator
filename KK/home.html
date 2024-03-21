@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trip Selection</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+
+
+
+<nav class="navbar">
+    <div class="container">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+
+<div class="container">
+    <h2>Select Trip Type</h2>
+    <div class="trip-options">
+        <label>
+            <input type="radio" name="tripType" value="oneWay"> One Way Trip
+        </label>
+        <label>
+            <input type="radio" name="tripType" value="roundTrip"> Round Trip
+        </label>
+    </div>
+    <button id="nextBtn" onclick="goToNext()">Next</button>
+</div>
+
+<script>
+    function goToNext() {
+        var tripType = document.querySelector('input[name="tripType"]:checked').value;
+        if (tripType === "oneWay") {
+            window.location.href = "oneway.html";
+        } else if (tripType === "roundTrip") {
+            window.location.href = "roundtrip.html";
+        }
+    }
+</script>
+
+</body>
+</html>

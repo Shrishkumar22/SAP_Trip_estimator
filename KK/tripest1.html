@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #3a89bd; /* Light blue background color */
+        display: flex;
+        align-items: center;
+        justify-content: center; /* Align content horizontally */
+        height: 100vh;
+        margin: 0; /* Remove default margin */
+        padding: 0; /* Remove default padding */
+      }
+      .content-wrapper {
+        display: flex;
+        max-width: 800px; /* Adjust the max-width as needed */
+        width: 100%;
+      }
+      .image-container {
+        flex: 1;
+        padding-right: 20px; /* Adjust padding */
+        overflow: hidden; /* Hide overflowing content */
+      }
+      .image-container img {
+        width: 100%; /* Make image take full width */
+        height: auto; /* Maintain aspect ratio */
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      .container {
+        flex: 1;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      .container h2 {
+        text-align: center;
+      }
+      .form-group {
+        margin-bottom: 20px;
+      }
+      .form-group label {
+        display: block;
+        margin-bottom: 5px;
+      }
+      .form-group input {
+        width: calc(100% - 22px);
+        padding: 10px;
+        border: 1px solid #0ac1d9;
+        border-radius: 5px;
+        margin-right: 20px;
+      }
+      .form-group button {
+        width: 100%;
+        padding: 10px;
+        background-color: #0095ff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      .error {
+        color: red;
+        font-size: 0.8em;
+        margin-top: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="content-wrapper">
+      <div class="image-container">
+        <img src="KK.jpg" alt="Image Description" />
+      </div>
+
+      <div class="container">
+        <h2>Sign Up</h2>
+        <form action="#" method="post" onsubmit="return validateForm()">
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+            <div id="emailError" class="error"></div>
+          </div>
+          <div class="form-group">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required />
+            <div id="passwordError" class="error"></div>
+          </div>
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+            <div id="nameError" class="error"></div>
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number:</label>
+            <input type="text" id="phone" name="phone" />
+            <div id="phoneError" class="error"></div>
+          </div>
+          <div class="form-group">
+            <button type="submit">Sign Up</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- <script>
+    function validateForm() {
+        var email = document.getElementById("email").value;
+        var password = document.getElementById("password").value;
+        var name = document.getElementById("name").value;
+        var phone = document.getElementById("phone").value;
+
+        var emailError = document.getElementById("emailError");
+        var passwordError = document.getElementById("passwordError");
+        var nameError = document.getElementById("nameError");
+        var phoneError = document.getElementById("phoneError");
+
+        var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        var phonePattern = /^\d{10}$/;
+
+        var isValid = true;
+
+        emailError.innerHTML = "";
+        passwordError.innerHTML = "";
+        nameError.innerHTML = "";
+        phoneError.innerHTML = "";
+
+        if (!emailPattern.test(email)) {
+            emailError.innerHTML = "Please enter a valid email address.";
+            isValid = false;
+        }
+
+        if (password.length < 5 || password.length > 15) {
+            passwordError.innerHTML = "Password must be between 5 to 15 characters.";
+            isValid = false;
+        }
+
+        if (!/^[a-zA-Z ]+$/.test(name)) {
+            nameError.innerHTML = "Name should contain"
+        }
+    }
+</script> -->
+  </body>
+</html>
