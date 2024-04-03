@@ -1,0 +1,223 @@
+[{
+  "_id": {
+    "$oid": "660a4c79bfa0fa41f8003afe"
+  },
+  "from": "coimbatore",
+  "to": "GOA",
+  "date": "09-04-2024",
+  "daily expense": {
+    "per meal": 350,
+    "per day": 1050
+  },
+  "travelchoices": {
+    "flight": {
+      "Economy": 10281,
+      "Premium Economy": 14795,
+      "Business": 43545,
+      "First Class": 109179
+    },
+    "train": {
+      "sl": 750,
+      "3A": 2000,
+      "2A": 3000,
+      "1A": 5000
+    },
+    "bus": 3199,
+    "Car": {
+      "driver charge": 13000,
+      "diesel charger": 3000,
+      "quantity": 4
+    }
+  },
+  "dist": 816,
+  "room cost per day": {
+    "suite": 22500,
+    "studio": 15000,
+    "double room": 11250
+  },
+  "foodtype": [
+    "veg",
+    "nonveg"
+  ],
+  "Accommodationrateing": {
+    "3": 1.5,
+    "4": 2.5,
+    "5": 4
+  }
+},
+{
+  "_id": {
+    "$oid": "660a4e3fbfa0fa41f8003b00"
+  },
+  "from": "coimbatore",
+  "to": "MANALI",
+  "date": "09-04-2024",
+  "daily expense": {
+    "per meal": 630,
+    "per day": 1200
+  },
+  "travelchoices": {
+    "flight": {
+      "Economy": 12000,
+      "Premium Economy": 18000,
+      "Business": 45000,
+      "First Class": 1100000
+    },
+    "train": {
+      "sl": 1000,
+      "3A": 2500,
+      "2A": 3500,
+      "1A": 6000
+    },
+    "bus": 3500,
+    "Car": {
+      "driver charge": 60860,
+      "diesel charger": 3500,
+      "quantity": 4
+    }
+  },
+  "dist": 747,
+  "room cost per day": {
+    "suite": 18000,
+    "studio": 12000,
+    "double room": 9000
+  },
+  "foodtype": [
+    "veg",
+    "nonveg"
+  ],
+  "Accommodationrateing": {
+    "3": 1.5,
+    "4": 2.5,
+    "5": 4
+  }
+},
+{
+  "_id": {
+    "$oid": "660ad035bfa0fa41f8003b1a"
+  },
+  "from": "coimbatore",
+  "to": "MUNNAR",
+  "date": "11-04-2024",
+  "daily expense": {
+    "per meal": 500,
+    "per day": 1500
+  },
+  "travelchoices": {
+    "bus": 1100,
+    "Car": {
+      "driver charge": 4122,
+      "diesel charger": 265,
+      "quantity": 4
+    }
+  },
+  "dist": 157,
+  "room cost per day": {
+    "suite": 15000,
+    "studio": 10000,
+    "double room": 7500
+  },
+  "foodtype": [
+    "veg",
+    "nonveg"
+  ],
+  "Accommodationrateing": {
+    "3": 1.5,
+    "4": 2.5,
+    "5": 4
+  }
+},
+{
+  "_id": {
+    "$oid": "660ad035bfa0fa41f8003b1b"
+  },
+  "from": "coimbatore",
+  "to": "AGRA",
+  "date": "12-04-2024",
+  "daily expense": {
+    "per meal": 750,
+    "per day": 2500
+  },
+  "travelchoices": {
+    "flight": {
+      "Economy": 15244,
+      "Premium Economy": 20220,
+      "Business": 50043,
+      "First Class": 129179
+    },
+    "train": {
+      "sl": 865,
+      "3A": 2240,
+      "2A": 3250,
+      "1A": 5500
+    },
+    "bus": 75000,
+    "Car": {
+      "driver charge": 49599,
+      "diesel charger": 2831,
+      "quantity": 4
+    }
+  },
+  "dist": 2216,
+  "room cost per day": {
+    "suite": 20000,
+    "studio": 13000,
+    "double room": 9500
+  },
+  "foodtype": [
+    "veg",
+    "nonveg"
+  ],
+  "Accommodationrateing": {
+    "3": 1.5,
+    "4": 2.5,
+    "5": 4
+  }
+},
+{
+  "_id": {
+    "$oid": "660a924fbfa0fa41f8003b06"
+  },
+  "from": "coimbatore",
+  "to": "DARJEELING",
+  "date": "14-04-2024",
+  "daily expense": {
+    "per meal": 890,
+    "per day": 3000
+  },
+  "travelchoices": {
+    "flight": {
+      "Economy": 13500,
+      "Premium Economy": 20000,
+      "Business": 50000,
+      "First Class": 120000
+    },
+    "train": {
+      "sl": 1500,
+      "3A": 3000,
+      "2A": 4000,
+      "1A": 7000
+    },
+    "bus": 6122,
+    "Car": {
+      "driver charge": 54980,
+      "diesel charger": 3070,
+      "quantity": 4
+    }
+  },
+  "dist": 2748,
+  "room cost per day": {
+    "suite": 17120,
+    "studio": 11150,
+    "double room": 81125
+  },
+  "foodtype": [
+    "veg",
+    "nonveg"
+  ],
+  "Accommodationrateing": {
+    "3": 1.5,
+    "4": 2.5,
+    "5": 4
+  }
+}]

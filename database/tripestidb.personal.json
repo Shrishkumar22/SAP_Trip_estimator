@@ -1,0 +1,60 @@
+[{
+  "_id": {
+    "$oid": "660a9421bfa0fa41f8003b0c"
+  },
+  "name": "lakshmi",
+  "Condact_No": {
+    "$numberLong": "7878787878"
+  },
+  "email": "lakshmi.p.nair.ok@gmail.com",
+  "isadmin": true,
+  "pasaword": "fluffy"
+},
+{
+  "_id": {
+    "$oid": "660a94d9bfa0fa41f8003b0e"
+  },
+  "name": "adithya",
+  "Condact_No": {
+    "$numberLong": "9090990909"
+  },
+  "email": "nairadithyaanish7@gmail.com",
+  "isadmin": true,
+  "password": "justdoit"
+},
+{
+  "_id": {
+    "$oid": "660a9594bfa0fa41f8003b10"
+  },
+  "name": "dhamini",
+  "Condact_No": {
+    "$numberLong": "9121221121"
+  },
+  "email": "dhaminimanoj@gmail.com",
+  "isadmin": false,
+  "pasaword": "dhams"
+},
+{
+  "_id": {
+    "$oid": "660a9625bfa0fa41f8003b12"
+  },
+  "name": "karthik",
+  "Condact_No": {
+    "$numberLong": "8997255522"
+  },
+  "email": "karthikrishna0917@gmail.com",
+  "isadmin": false,
+  "pasaword": "karthik"
+},
+{
+  "_id": {
+    "$oid": "660a977ebfa0fa41f8003b14"
+  },
+  "name": "Shrish",
+  "Condact_No": {
+    "$numberLong": "8997255522"
+  },
+  "email": "Shrishkumar22@gmail.com",
+  "isadmin": false,
+  "pasaword": "Shrish"
+}]
