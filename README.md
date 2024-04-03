@@ -7,7 +7,7 @@ Therefore - An app for an overall average trip estimation during their quest cre
 Team Members:- <br/>
 
 •	Dr.C.Bhagavathi <br/>
-•	Aditya Nair <br/>
+•	Adithya Anish Nair <br/>
 •	Shrish Kumar Lohchab <br/>
 •	Dhamini Manoj <br/>
 •	Karthik Krishna <br/>
