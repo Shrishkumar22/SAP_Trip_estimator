@@ -38,12 +38,7 @@
   "foodtype": [
     "veg",
     "nonveg"
-  ],
-  "Accommodationrateing": {
-    "3": 1.5,
-    "4": 2.5,
-    "5": 4
-  }
+  ]
 },
 {
   "_id": {
@@ -85,12 +80,7 @@
   "foodtype": [
     "veg",
     "nonveg"
-  ],
-  "Accommodationrateing": {
-    "3": 1.5,
-    "4": 2.5,
-    "5": 4
-  }
+  ]
 },
 {
   "_id": {
@@ -120,12 +110,7 @@
   "foodtype": [
     "veg",
     "nonveg"
-  ],
-  "Accommodationrateing": {
-    "3": 1.5,
-    "4": 2.5,
-    "5": 4
-  }
+  ]
 },
 {
   "_id": {
@@ -167,12 +152,7 @@
   "foodtype": [
     "veg",
     "nonveg"
-  ],
-  "Accommodationrateing": {
-    "3": 1.5,
-    "4": 2.5,
-    "5": 4
-  }
+  ]
 },
 {
   "_id": {
@@ -214,10 +194,5 @@
   "foodtype": [
     "veg",
     "nonveg"
-  ],
-  "Accommodationrateing": {
-    "3": 1.5,
-    "4": 2.5,
-    "5": 4
-  }
+  ]
 }]
