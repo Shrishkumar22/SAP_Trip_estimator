@@ -1,0 +1,63 @@
+[{
+  "_id": {
+    "$oid": "660cfceb4b4d57faa5d14a0e"
+  },
+  "t_id": {
+    "$oid": "660a9594bfa0fa41f8003b10"
+  },
+  "c_id": {
+    "$oid": "660a4e3fbfa0fa41f8003b00"
+  },
+  "travel_preferance": "bus",
+  "budget": 21200,
+  "actual_amount": 20543,
+  "feedback": 0,
+  "avg_cost": 20000,
+  "conf_statue": false,
+  "discount_perc": 20,
+  "a_id": {
+    "$oid": "660a94d9bfa0fa41f8003b0e"
+  }
+},
+{
+  "_id": {
+    "$oid": "660cffed4b4d57faa5d14a11"
+  },
+  "t_id": {
+    "$oid": "660a977ebfa0fa41f8003b14"
+  },
+  "c_id": {
+    "$oid": "660ad035bfa0fa41f8003b1b"
+  },
+  "travel_preferance": "flight",
+  "budget": 54378,
+  "actual_amount": 55000,
+  "feedback": 3,
+  "avg_cost": 80000,
+  "conf_statue": false,
+  "discount_perc": 10,
+  "a_id": {
+    "$oid": "660a9421bfa0fa41f8003b0c"
+  }
+},
+{
+  "_id": {
+    "$oid": "660cffed4b4d57faa5d14a12"
+  },
+  "t_id": {
+    "$oid": "660a9625bfa0fa41f8003b12"
+  },
+  "c_id": {
+    "$oid": "660ad035bfa0fa41f8003b1b"
+  },
+  "travel_preferance": "train",
+  "budget": 71200,
+  "actual_amount": 80543,
+  "feedback": 5,
+  "avg_cost": 76000,
+  "conf_statue": false,
+  "discount_perc": 25,
+  "a_id": {
+    "$oid": "660a94d9bfa0fa41f8003b0e"
+  }
+}]
